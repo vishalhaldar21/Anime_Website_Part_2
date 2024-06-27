@@ -1,0 +1,236 @@
+
+
+
+
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:Arial;
+    text-decoration: none;
+    user-select: none;
+}
+
+.background-clip{
+position: fixed;
+width: 1920px;
+height: 1080px;
+left: 0;
+right: 0;
+/* opacity: 0.8; */
+}
+
+
+
+.space{
+
+    width: 100%;
+    height: 650px;
+    /* background-color: black; */
+    margin-bottom: -70px;
+}
+
+.row{
+    width: 100%;
+    min-height: 500px;
+    /* background-color: aqua; */
+    margin-top: 200px;
+    position: relative;
+    z-index: 10;
+    /* border: 2px solid yellow; */
+
+}
+
+.col{
+    width: 18%;
+    min-height: 550px;
+    /* background-color: red; */
+    float: left;
+    /* border: 2px solid yellow; */
+   
+}
+
+.col:nth-child(2),.col:nth-child(3),.col:nth-child(4),.col:nth-child(5){
+    margin-left: 2%;
+    /* margin-right: 6%; */
+}
+.col:nth-child(1){
+    margin-left: 1%;
+}
+
+img{
+    
+    height: 480px;
+    width: 330px;
+    object-fit: cover;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    /* border: 2px solid red */
+    
+}
+
+
+/* ***************************FOOTER******************************* */
+.footer{
+
+    width: 100%;
+    min-height: 100px;
+    /* background-color: black; */
+    margin-top: 70px;
+
+}
+/* ***************************FOOTER******************************* */
+
+h5{
+    font-size: 20px;
+    border: 2px solid yellow;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    color: white;
+}
+
+h6{
+    color: white;
+    position: relative;
+}
+
+h2{
+    position: relative;
+    
+}
+
+/* .header{
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    position: relative;
+   
+    
+} */
+
+select{
+
+    height: 35px;
+    width: 800px;
+    margin-top: 12px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+
+/* ****************************RESPONSIVE SLIDER************************************ */
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.slider {
+    display: flex;
+    transition: transform 4s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.vishal{
+    width: 80%;
+    height: 200px;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+
+/* ****************************RESPONSIVE SLIDER************************************ */
+
+
+section{
+    /* background-color: black; */
+    position: relative;
+
+}
+
+/* ************************HEADER*************************** */
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    position: fixed;
+    margin-top: -200px;
+    
+    /* z-index: 2; */
+
+}
+
+.logo1{
+
+    height: 100px;
+    width: auto;
+    margin-left: 30px;
+   
+}
+
+.logo2{
+
+    height: 100px;
+    width: auto;
+    margin-left: 20px;
+    
+
+}
+
+.logo{
+    float: left;
+    margin-top: -15px;
+}
+
+.afterlogo1{
+    float: left;
+    color: white;
+    margin-left: 100px;
+    margin-top: 25px;
+    height: 70px;
+    width: 150px;
+    text-align: center;
+    
+
+}
+
+h3:hover{
+
+    background-color: none ;
+    color:red;
+}
+
+h3{
+    height: 70px;
+    transition: 0.2s;
+}
+
+.HOME{
+    color: white;
+}
+
+/* ************************HEADER*************************** */
+
+
+/* .animegallary{
+
+} */
+
